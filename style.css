@@ -1,0 +1,610 @@
+body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: auto;
+	background-color: #ffe8d6;
+	overflow-x: hidden;
+}
+/* Navigations */
+.mega-menu{
+	background-color: #BEB7A4;
+	overflow: hidden;
+}
+.mega-menu img{
+	height: 90px;
+	width: auto;
+	margin: auto;
+	justify-content: center;
+}
+.mega-menu a {
+	float: left;
+	display: block;
+	color: #000000;
+	text-align: center;
+	padding: 35px 28px;
+	text-decoration: none;
+	font-size: 24px;
+	border: 10px;
+	border-color: ;
+}
+
+.mega-menu a:hover{
+	background-color: #191716;
+	color: white;
+
+}
+
+.mega-menu a.active {
+	background-color: #f1E0C5;
+	color: #000022;
+}
+.main-hero{
+	background-image: url('./nokbok.webp');
+	background-attachment: scroll;
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 1px;
+}
+.hp-title{
+	color: #191716;
+	font-size: 50px;
+	padding: 50px;
+	padding-bottom: 10px;
+}
+.cta {
+	display: inline-block;
+	padding: 15px 40px;
+	background-color: #000022;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-left: 2.7%;
+	font-size: 22px;
+}
+.cta:hover{
+	background-color: #fbf5f3;
+	color: black;
+}
+.announcements {
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+	text-align: center;
+	gap: 10px;
+	width: 100%;
+}
+.section1 img {
+	border-radius: 10px;
+	margin-top: 15px;
+	width: 100%;
+	height: auto;
+}
+.section1 {
+	display: flex;
+
+}
+.col-1 {
+	justify-content: left;
+}
+.col-2 {
+	justify-content: right;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+.col-1, .col-2{
+	width: 45%;
+	margin: 12px;
+	padding: 12px;
+}
+.maps h2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contacts fieldset{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #f1E0C5;
+	height: auto;
+	width: 50%;
+	border-radius: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.contacts input{
+	height: 40px;
+	width: 500px;
+	margin: auto;
+	display: flex;
+	border-radius: 10px;
+	font-size: 16px;
+	border-color: #ffe8d6;
+}
+.contacts textarea{
+	height: 100px;
+	width: 500px;
+	margin: auto;
+	display: flex;
+	border-radius: 10px;
+	font-size: 16px;
+	border-color: #ffe8d6;
+}
+.contacts button{
+	display: block;
+	margin: auto;
+	text-align: center;
+	background-color: #f1E0C5;
+	border-radius: 10px;
+	width: 100px;
+	height: 50px;
+}
+*{
+    box-sizing: border-box;
+}
+footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: auto;
+}
+.footerNav ul{
+    display: flex;
+    margin-right: 25px;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.herobanner2{
+	background-image: url('./nokbok3.jpg');
+	background-attachment: scroll;
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-bottom: 50px;
+}
+.quote{
+	color: white;
+	font-size: 40px;
+	padding: 60px;
+	padding-bottom: 20px;
+}
+.section2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+	margin-bottom: 40px;
+	gap: 90px;
+
+}
+.cl1 .cl2 .cl3{
+	display: flex;
+	flex-direction: column;
+}
+.cl1 img{
+	width: 350px;
+	height: 350px;
+	border-radius: 20px;
+	object-fit: cover;
+	object-position: center;
+}
+.cl2 img{
+	width: 350px;
+	height: 350px;
+	border-radius: 20px;
+	object-fit: cover;
+	object-position: center;	
+}
+.cl3 img{
+	width: 350px;
+	height: 350px;
+	border-radius: 20px;
+	object-fit: cover;
+	object-position: center;	
+}
+.info{
+	text-align: center;
+	font-size: 20px;
+	background-color: #f1E0C5;
+	padding: 10px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.title2{
+	text-align: center;
+}
+.column1{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	gap: 100px;
+}
+.column1 div{
+	display: flex;
+	flex-direction: column;
+}
+.div1{
+	padding: 20px;
+	text-align: center;
+	font-size: 20px;
+	background-color: #BEB7A4;
+	width: 500px;
+	height: 600px;
+	margin-bottom: 50px;
+	border-radius: 20px;
+	font-family: sans-serif;
+}
+.div1 img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	width: 300px;
+	height: 300px;
+	border-radius: 20px;
+	object-fit: cover;
+	object-position: center;
+}
+.div2{
+	background-color: #BEB7A4;
+	width: 500px;
+	height: 600px;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 50px;
+	border-radius: 20px;
+	font-family: sans-serif;
+	font-size: 15.2px;
+}
+.column2{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	gap: 50px;
+}
+.column2 div{
+	display: flex;
+	flex-direction: column;
+}
+.div21{
+	background-color: #BEB7A4;
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+	margin-bottom: 25px;
+}
+.div21 button{	
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+}
+.div21 img{
+	width: 230px;
+	height: 230px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 20px;
+}
+.div21 input{
+	margin: auto;
+	margin-top: 20px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.div21 p{
+	font-size: 16px;
+	font-family: sans-serif;
+	padding: 20px;
+	height: 300px;
+	width: 500px;
+	border-radius: 20px;
+}
+.div22{
+	background-color: #BEB7A4;
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+	margin-bottom: 25px;
+}
+.div22 button{	
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+}
+.div22 img{
+	width: 230px;
+	height: 230px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 20px;
+}
+.div22 input{
+	margin: auto;
+	margin-top: 20px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.div22 p{
+	font-size: 16px;
+	font-family: sans-serif;
+	padding: 20px;
+	height: 300px;
+	width: 500px;
+	border-radius: 20px;
+}
+.div23{
+	background-color: #BEB7A4;
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+	margin-bottom: 25px;
+}
+.div23 button{	
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+}
+.div23 img{
+	width: 230px;
+	height: 230px;
+	object-fit: cover;
+	object-position: right;
+	border-radius: 20px;
+}
+.div23 input{
+	margin: auto;
+	margin-top: 20px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.div23 p{
+	font-size: 16px;
+	font-family: sans-serif;
+	padding: 20px;
+	height: 300px;
+	width: 500px;
+	border-radius: 20px;
+}
+.div24{
+	background-color: #BEB7A4;
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+	margin-bottom: 25px;
+}.div24 button{	
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+}
+.div24 img{
+	width: 230px;
+	height: 230px;
+	object-fit: cover;
+	object-position: top;
+	border-radius: 20px;
+}
+.div24 input{
+	margin: auto;
+	margin-top: 20px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.div24 p{
+	font-size: 16px;
+	font-family: sans-serif;
+	padding: 20px;
+	height: 300px;
+	width: 500px;
+	border-radius: 20px;
+}
+
+.column3{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	gap: 50px;
+}
+.column3 div{
+	display: flex;
+	flex-direction: column;
+}
+.div31{
+	background-color: #BEB7A4;
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+	margin-bottom: 25px;
+}
+.div31 button{	
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+}
+.div31 img{
+	width: 230px;
+	height: 230px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 20px;
+}
+.div31 input{
+	margin: auto;
+	margin-top: 20px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.div31 p{
+	font-size: 16px;
+	font-family: sans-serif;
+	padding: 20px;
+	height: 300px;
+	width: 500px;
+	border-radius: 20px;
+}
+.div32{
+	background-color: #BEB7A4;
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+	margin-bottom: 25px;
+}
+.div32 button{	
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+}
+.div32 img{
+	width: 230px;
+	height: 230px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 20px;
+}
+.div32 input{
+	margin: auto;
+	margin-top: 20px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.div32 p{
+	font-size: 16px;
+	font-family: sans-serif;
+	padding: 20px;
+	height: 300px;
+	width: 500px;
+	border-radius: 20px;
+}
+.div33{
+	background-color: #BEB7A4;
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+	margin-bottom: 25px;
+}
+.div33 button{	
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+}
+.div33 img{
+	width: 230px;
+	height: 230px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 20px;
+}
+.div33 input{
+	margin: auto;
+	margin-top: 20px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.div33 p{
+	font-size: 16px;
+	font-family: sans-serif;
+	padding: 20px;
+	height: 300px;
+	width: 500px;
+	border-radius: 20px;
+}
+.div34{
+	background-color: #BEB7A4;
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+	margin-bottom: 25px;
+}
+.div34 button{	
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+}
+.div34 img{
+	width: 230px;
+	height: 230px;
+	object-fit: cover;
+	object-position: left;
+	border-radius: 20px;
+}
+.div34 input{
+	margin: auto;
+	margin-top: 20px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.div34 p{
+	font-size: 16px;
+	font-family: sans-serif;
+	padding: 20px;
+	height: 300px;
+	width: 500px;
+	border-radius: 20px;
+}
